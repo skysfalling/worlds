@@ -1,0 +1,38 @@
+.link-header {
+    display: flex;
+}
+
+.link-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: auto;
+    padding: 20px;
+}
+
+.link-header a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.link-header .dropdown-link {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .link-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .link-header a {
+        display: none;
+        margin-top: 20px;
+    }
+    .link-header .dropdown-link {
+        display: block;
+        font-size: 30px;
+    }
+
+}

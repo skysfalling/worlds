@@ -1,0 +1,15 @@
+.foreground {
+position: relative;
+top: 100px;
+}
+
+.transition-link {
+    opacity: 0.2;
+    transition: all 0.5s ease-in-out;
+  }
+
+.transition-link:hover {
+    transform: translateY(10%);
+    opacity: 1;
+}
+
