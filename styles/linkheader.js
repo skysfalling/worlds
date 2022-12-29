@@ -20,8 +20,6 @@ dropdownLink.addEventListener('click', () => {
     links.forEach(link => link.style.display = 'none');
     isDropdownOpen = false;
 
-    dropdownLink.style.display = 'block';
-
   } else {
     links.forEach(link => link.style.display = 'block');
     isDropdownOpen = true;

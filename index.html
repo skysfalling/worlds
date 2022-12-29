@@ -16,7 +16,7 @@
             background-color: black;
 
             color: white;
-            margin: 10%;
+
         }
 
         @media (max-width: 900px) {
@@ -29,16 +29,27 @@
 <body>
 
     <h2> Worlds of The Sky </h2>
-    <div class="link-header">
-        <a class="dropdown-link" href="index.html"> ::WORLDS::</a>
+        <div class="link-header">
+        <a class="dropdown-link"> ::WORLDS::</a>
         <a href="pages/crystalline.html" class="transition-link">CRYSTALLINE</a>
         <a href="pages/eosc.html" class="transition-link">EOSC</a>
         <a href="pages/lune.html" class="transition-link">LUNE</a>
         <a href="pages/sky.html" class="transition-link">SKY</a>
     </div>
+
     <script src="styles/linkheader.js"></script>
 
-    <div class="square"></div>
+    <div class="card" onclick="location.href='../pages/crystalline.html';">
+        <div class="card-title-wrap">
+            <h1 class="title">
+                <span class="copy-wrap">
+                    CRYSTALLINE
+                </span>
+            </h1>	
+        </div>
+        <div class="card-img"></div>
+    </div>
+
     <div class="card" onclick="location.href='crystalline.html';">
         <div class="card-title-wrap">
             <h1 class="title">
@@ -50,28 +61,6 @@
         <div class="card-img"></div>
     </div>
 
-    <div class="square"></div>
-    <div class="card" onclick="location.href='crystalline.html';">
-        <div class="card-title-wrap">
-            <h1 class="title">
-                <span class="copy-wrap">
-                    EOSC
-                </span>
-            </h1>	
-        </div>
-        <div class="card-img"></div>
-    </div>
 
-    <div class="square"></div>
-    <div class="card" onclick="location.href='crystalline.html';">
-        <div class="card-title-wrap">
-            <h1 class="title">
-                <span class="copy-wrap">
-                    LUNE
-                </span>
-            </h1>	
-        </div>
-        <div class="card-img"></div>
-    </div>
 </body>
 </html>
